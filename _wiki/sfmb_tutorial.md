@@ -17,5 +17,5 @@ latex   : false
 # Tutorials
 
 - [[sfmb_how_to_use_sprite_editor]]{How to use SpriteEditor}
-- [[sfmb_how_to_make_parallax_background]]{How to make parallax background}
+- [[sfmb_how_to_make_parallax_background]]{How to make backgrounds}
 
