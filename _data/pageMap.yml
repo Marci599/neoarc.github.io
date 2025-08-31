@@ -200,7 +200,7 @@ sfmb_betatest_community_rules:
     children: []
 sfmb_contribute_sprite:
     type: wiki
-    title: 'Contribution - sprite part'
+    title: 'SFMB - Contribution - sprite part'
     summary: ""
     parent: ""
     url: /wiki/sfmb_contribute_sprite
@@ -230,6 +230,14 @@ sfmb_frequently_asked_question:
     url: /wiki/sfmb_frequently_asked_question
     updated: '2021-03-31 00:54:51 +0900'
     children: [sfmb_exp_and_coin_table]
+sfmb_how_to_make_game_theme:
+    type: wiki
+    title: 'SFMB - How to make a game theme'
+    summary: ""
+    parent: sfmb_tutorial
+    url: /wiki/sfmb_how_to_make_game_theme
+    updated: '2021-06-22 01:37:00 +0900'
+    children: []
 sfmb_how_to_make_parallax_background:
     type: wiki
     title: 'SFMB - How to make parallax or simple backgrounds'
@@ -244,7 +252,7 @@ sfmb_how_to_setup_pro_controller:
     summary: null
     parent: sfmb_tutorial
     url: /wiki/sfmb_how_to_setup_pro_controller
-    updated: null
+    updated: '2022-01-14 00:00:00 +0900'
     children: []
 sfmb_how_to_use_sprite_editor:
     type: wiki
@@ -256,7 +264,7 @@ sfmb_how_to_use_sprite_editor:
     children: []
 sfmb_level_difficulty:
     type: wiki
-    title: 'Difficulty calculation'
+    title: 'SFMB - Difficulty calculation'
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_level_difficulty
@@ -272,7 +280,7 @@ sfmb_mapeditor_guide:
     children: []
 sfmb_privacy_and_security:
     type: wiki
-    title: 'Privacy & Security'
+    title: 'SFMB - Privacy & Security'
     summary: ""
     parent: ""
     url: /wiki/sfmb_privacy_and_security
@@ -296,7 +304,7 @@ sfmb_roadmap:
     children: []
 sfmb_sprite_index:
     type: wiki
-    title: 'Sprite index definition'
+    title: 'SFMB - Sprite index definition'
     summary: ""
     parent: ""
     url: /wiki/sfmb_sprite_index
@@ -304,7 +312,7 @@ sfmb_sprite_index:
     children: []
 sfmb_stage_rating:
     type: wiki
-    title: 'Stage rating'
+    title: 'SFMB - Stage rating'
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_stage_rating
@@ -325,7 +333,7 @@ sfmb_tutorial:
     parent: sfmb_betatest
     url: /wiki/sfmb_tutorial
     updated: '2021-06-22 01:27:13 +0900'
-    children: [sfmb_how_to_make_parallax_background, sfmb_how_to_setup_pro_controller, sfmb_how_to_use_sprite_editor]
+    children: [sfmb_how_to_make_game_theme, sfmb_how_to_make_parallax_background, sfmb_how_to_setup_pro_controller, sfmb_how_to_use_sprite_editor]
 sfmb_version_history:
     type: wiki
     title: 'SFMB - Version History'
