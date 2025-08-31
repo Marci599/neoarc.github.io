@@ -9,7 +9,7 @@ comment : true
 parent  : [[sfmb_tutorial]]
 latex   : false
 date    : 2021-06-22 01:37:00 +0900 
-updated : 2021-06-22 01:37:00 +0900
+updated : 2025-08-31 20:51:00 +0100
 ---
 * TOC
 {:toc}
@@ -77,5 +77,5 @@ There are several docking-panes(windows) in SpriteEditor.
 
 ## Fin.
 - That’s not all, but other things might be easier to figure out if you try things you don’t know, because that’s one of the best way to learn.
-- If something is still not clear, DM me, the author (Marci599) on discord and I will try to help.
+- If something is still not clear, DM me, the author (**Marci599**) on discord and I will try to help.
 
