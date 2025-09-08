@@ -9,7 +9,7 @@ comment : true
 parent  : [[sfmb_tutorial]]
 latex   : false
 date    : 2021-06-22 01:37:00 +0900 
-updated : 2025-08-31 20:51:00 +0100
+updated : 2025-09-09 12:37:00 +0100
 ---
 * TOC
 {:toc}
@@ -19,7 +19,7 @@ updated : 2025-08-31 20:51:00 +0100
 ## Download & Setup
 - Where:
 	- For beta testers pinned messages in the `#resource-sprite` channel.
- 	- For DEMO users pinned in the `demo-game-themes` channel.
+ 	- For DEMO users pinned in the `#demo-game-themes` channel.
 - How
 	- Download the latest version.
 	- Move it into your `Mario Multiverse` folder next to `Mario.exe`.
