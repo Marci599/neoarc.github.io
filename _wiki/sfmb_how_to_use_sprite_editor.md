@@ -19,7 +19,7 @@ updated : 2025-09-09 12:37:00 +0100
 ## Download & Setup
 - Where:
 	- For beta testers pinned messages in the `#resource-sprite` channel.
- 	- For DEMO users pinned in the `#demo-game-themes` channel.
+	- For DEMO users pinned in the `#demo-game-themes` channel.
 - How
 	- Download the latest version.
 	- Move it into your `Mario Multiverse` folder next to `Mario.exe`.
