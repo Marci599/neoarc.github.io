@@ -33,10 +33,12 @@ This document briefly explains how to edit each component.
 - Theme settings can be edited in the Manage ThemeSettings menu.
 - Each item shows a short description at the bottom when clicked.
 - Try changing different options and see how they affect the game.
+- [[sfmb_how_to_make_parallax_background]]{How to make backgrounds}
 
 ## Editing Sprite Files
 - In this game, sprites consist of .sprite files and .png files.
 - To edit a .sprite file, you need the SpriteEditor tool.
+- [[sfmb_how_to_use_sprite_editor]]{How to use SpriteEditor}
 
 ## Editing Music Files
 - BGM in this game consists of .ogg files and .bgm files.
