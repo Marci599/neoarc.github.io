@@ -199,7 +199,7 @@ You only need to set this when configuring players with the propeller power-up.
     3. Make sure all `Sprite Frames` have the same size (width and height)
     4. Adjust frame count if you changed the number of `Sprite Frames`
 
-- If you want to change how and what background layers appear in-game, please check this detailed tutorial: [[sfmb_how_to_make_parallax_background]]{How to make background layers}.
+- If you want to change how and what background layers appear in-game, please check this detailed tutorial: [[sfmb_how_to_make_parallax_background]]{How to implement background layers}.
 
 ## Hotkeys
 
