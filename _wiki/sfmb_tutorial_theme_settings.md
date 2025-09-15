@@ -1,6 +1,6 @@
 ---
 layout  : wiki
-title   : SFMB - How to use the ThemeSettings
+title   : SFMB - How to use ThemeSettings
 summary : 
 date    : 2021-03-02 23:44:35 +0900
 updated : 2025-09-15 20:00:00 +0100
