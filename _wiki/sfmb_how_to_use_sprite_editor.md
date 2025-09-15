@@ -17,7 +17,7 @@ updated : 2025-09-15 14:00:00 +0100
 # How to download and use the MM SpriteEditor.
 
 ## What is SpriteEditor
-Some people think that the MM SpriteEditor is a sprite creator program, like Aseprite, but that’s not the case. The purpose of the MM SpriteEditor is to configure compatible spritesheets (e.g., Item.png) and sprites (e.g., LayerOverworld.png). These configurations are saved into a .sprite file with the same name as the spritesheet (e.g., Item.sprite). But what does “configure” actually mean, you may ask.
+Some people think that the MM SpriteEditor is a sprite creator program, like Aseprite, but that’s not the case. The purpose of the MM SpriteEditor is to configure compatible spritesheets (e.g., `Item.png`) and sprites (e.g., `LayerOverworld.png`). These configurations are saved into a `.sprite` file with the same name as the spritesheet (e.g., `Item.sprite`). But what does “configure” actually mean, you may ask.
 
 - <img width="500" alt="image" src="https://github.com/user-attachments/assets/328752f2-dab0-4576-9c4a-fa539688960d" />
 - <img width="500" alt="image" src="https://github.com/user-attachments/assets/0ca6aaef-a367-4a72-8ac8-dadc3c12e691" />
@@ -26,14 +26,14 @@ A spritesheet consists of multiple sprites. These sprites can appear in differen
 
 In addition, here you can also configure things like:
 - How much the subject should be offset on the X and Y axis compared to its original origin.
-- Where the helmets (Buzzy, Spiny, Pumpkin and Santa) of the player should be placed for each sprite frame, and in what direction and angle they should face.
+- Where the helmets (`Buzzy`, `Spiny`, `Pumpkin` and `Santa`) of the player should be placed for each sprite frame, and in what direction and angle they should face.
 - Where their propellers should be positioned and whether they appear in front of the player, behind, or not at all.
 - Where the wing(s) of enemies should be placed.
 - Speed, frame count, and loop type of custom-made or predefined animations.
 
-There are also cases where an image doesn’t contain a spritesheet but only a single sprite, like unanimated backgrounds (e.g., SMB LayerOverworld.png).
+There are also cases where an image doesn’t contain a spritesheet but only a single sprite, like unanimated backgrounds (e.g., `SMB` `LayerOverworld.png`).
 
-And of course, there are exceptions when it’s not possible to create a .sprite file for a spritesheet or a sprite, since its configuration is hardcoded in the game itself (e.g., TileOverworld).
+And of course, there are exceptions when it’s not possible to create a `.sprite` file for a spritesheet or a sprite, since its configuration is hardcoded in the game itself (e.g., `TileOverworld`).
 
 ## Download & Setup
 
