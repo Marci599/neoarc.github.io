@@ -31,7 +31,7 @@ In addition, here you can also configure things like:
 - Where the wing(s) of enemies should be placed.
 - Speed, frame count, and loop type of custom-made or predefined animations.
 
-There are also cases where an image doesn’t contain a spritesheet but only a single sprite, like unanimated backgrounds (e.g., `SMB` `LayerOverworld.png`).
+There are also cases where an image doesn’t contain a spritesheet but only a single sprite, like unanimated background layers (e.g., `SMB` `LayerOverworld.png`).
 
 And of course, there are exceptions when it’s not possible to create a `.sprite` file for a spritesheet or a sprite, since its configuration is hardcoded in the game itself (e.g., `TileOverworld`).
 
@@ -199,7 +199,7 @@ You only need to set this when configuring players with the propeller power-up.
     3. Make sure all `Sprite Frames` have the same size (width and height)
     4. Adjust frame count if you changed the number of `Sprite Frames`
 
-- If you want to change how and what background layers appear in-game, please check this detailed tutorial: [[sfmb_how_to_make_parallax_background]]{How to make backgrounds}.
+- If you want to change how and what background layers appear in-game, please check this detailed tutorial: [[sfmb_how_to_make_parallax_background]]{How to make background layers}.
 
 ## Hotkeys
 
