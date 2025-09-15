@@ -14,9 +14,7 @@ updated : 2025-09-15 14:00:00 +0100
 * TOC
 {:toc}
 
-# How to download and use the MM SpriteEditor.
-
-## What is SpriteEditor
+# What is SpriteEditor
 Some people think that the MM SpriteEditor is a sprite creator program, like Aseprite, but that’s not the case. The purpose of the MM SpriteEditor is to configure compatible spritesheets (e.g., `Item.png`) and sprites (e.g., `LayerOverworld.png`). These configurations are saved into a `.sprite` file with the same name as the spritesheet (e.g., `Item.sprite`). But what does “configure” actually mean, you may ask.
 
 - <img width="500" alt="image" src="https://github.com/user-attachments/assets/328752f2-dab0-4576-9c4a-fa539688960d" />
@@ -35,14 +33,14 @@ There are also cases where an image doesn’t contain a spritesheet but only a s
 
 And of course, there are exceptions when it’s not possible to create a `.sprite` file for a spritesheet or a sprite, since its configuration is hardcoded in the game itself (e.g., `TileOverworld`).
 
-## Download & Setup
+# Download & Setup
 
-### Where
+## Where
 
 - For beta testers: pinned messages in the `#resource-sprite` text channel.
 - For DEMO users: pinned in the `#demo-game-themes` forum channel.
 
-### How
+## How
 
 - Download the latest version.
 - Move it into your `Mario Multiverse` folder next to `Mario.exe`.
@@ -67,27 +65,27 @@ And of course, there are exceptions when it’s not possible to create a `.sprit
   - You can also click on the program icon to open recently used sprites.
 - It's also possible to create a `.sprite` file from a `.png` with the `new` button, but sometimes it's easier to just copy-paste an existing one.
     
-### Setup layout
+## Setup layout
 
 - You can rearrange the panes (sub-windows) by grabbing the top of its border and dragging it.
 - While dragging, small arrow icons will appear. If you drag one pane into it, it will attach to the edge of that another pane.
 - ![gif1](https://user-images.githubusercontent.com/40640441/122874734-9e720f00-d333-11eb-991e-88491c2b0a44.gif)
 
-## Panes
+# Panes
 
 There are several docking panes (sub-windows) in SpriteEditor.
 
-### Preview pane
+## Preview pane
 
 - Here you can see the animations and sprites with the set offset.
 - The intersection of the two lines is the origin of the current subject.
   - <img width="355" height="403" alt="image" src="https://github.com/user-attachments/assets/7b282998-2d05-447d-bf1e-0db48674501f" />
 
-### Properties pane
+## Properties pane
 
 - This is where the properties of `Sprite Frames` or `Animations` appear when you click on them.
 
-### Sprite frames pane
+## Sprite frames pane
 
 - If you click on one, it will appear in the `Preview` window with the set offset and area, and its properties will appear in the `Properties` window.
 - Here you can set the area where the sprite is, but this happens automatically when you `double-click` on it.
@@ -95,7 +93,7 @@ There are several docking panes (sub-windows) in SpriteEditor.
 - You can also set the offset here, but this is easier with the small arrow icons in the `Home` tab. With the offset you can shift the sprite from the center of the origin on the X and Y axes.
   - ![gif3](https://user-images.githubusercontent.com/40640441/122875978-3de3d180-d335-11eb-82b1-6342ad9ae62f.gif)
 
-#### Common origins
+### Common origins
 
 - Center Bottom:
   - Players
@@ -108,7 +106,7 @@ There are several docking panes (sub-windows) in SpriteEditor.
   - Fonts
   - Most UI-related resources
 
-### Animations pane
+## Animations pane
 
 - If you click on one
 
@@ -132,19 +130,19 @@ There are several docking panes (sub-windows) in SpriteEditor.
   	- For example, in the `Helmet.sprite` file, the `sprite frame` with index 7 is always the front-facing spiny helmet sprite no matter what.
   - You can read the full list on this page: [[sfmb_sprite_index]]{Sprite indexes}
 
-## Workflows
+# Workflows
 
 - If you make changes to the `.png` files, make sure to press `Reload Image` on the `Home` tab so that SpriteEditor displays the latest version of the spritesheet image.
 - If you are working with HD sprites (@2x), check the `Load HD Texture` checkbox on the `Options etc.` tab.
 - Regularly check for updates by pressing the `Check update` button on the `Options etc.` tab.
 - Don’t forget to save regularly!
 
-### Player sprites
+## Player sprites
 
 - For all possible animations, you can check existing player `.sprite` files.
 - When working with player sprites, you not only need to create and configure each `Sprite frame` and `Animation`, but also the helmet and propeller offsets. But before you do that, make sure that the `Helmet` resource (`.png` & `.sprite` files) is already created and configured.
 
-#### Helmets
+### Helmets
 
 - Click on the `Helmet` item and select a `Sprite frame` in the `Sprite frames` pane. If this doesn't make the helmet display in the `Preview` pane, click on one of the arrows in the `Home` tab.
   - <img width="365" height="109" alt="image" src="https://github.com/user-attachments/assets/bc0d255c-f6d7-4669-848e-9ec7af0e2ea6" />
@@ -158,7 +156,7 @@ There are several docking panes (sub-windows) in SpriteEditor.
   - e.g. when the player is looking up or ground pounding
     - <img width="219" height="361" alt="image" src="https://github.com/user-attachments/assets/858c1490-b047-400b-a267-ea7d2955a57b" />
 
-#### Propeller
+### Propeller
 
 You only need to set this when configuring players with the propeller power-up.
 
@@ -167,7 +165,7 @@ You only need to set this when configuring players with the propeller power-up.
 - You can change its Z-order (to be behind or in front of the player sprite) or hide it completely for specific situations.
   - <img width="138" height="88" alt="image" src="https://github.com/user-attachments/assets/570e226a-1103-4b83-8f39-40264c6c8a07" />
 
-### Enemies
+## Enemies
 
 - When working with enemies (either with the full enemies spritesheet or the individual enemy spritesheets), you need to configure their wing position(s) for each `Sprite frame`.
 - Click the desired `Wing` item to work with it.
@@ -183,7 +181,7 @@ You only need to set this when configuring players with the propeller power-up.
   - `Double` displays one left and one right wing.
   - `Double2` displays two left wings.
 
-### Background Layer(s)
+## Background Layer(s)
 
 - You can change at what height the `Sprite frames` should display in-game by changing their `OffsetY` value(s).
 - You can change the speed of the animation by adjusting the `Delay` in the `Properties` pane.
@@ -201,12 +199,12 @@ You only need to set this when configuring players with the propeller power-up.
 
 - If you want to change how and what background layers appear in-game, please check this detailed tutorial: [[sfmb_how_to_make_parallax_background]]{How to implement background layers}.
 
-## Hotkeys
+# Hotkeys
 
 - CTRL + MouseWheel: Zoom
 - W, A, D, X keys: Move offset
 
-## Fin.
+# Fin.
 
 That’s not all, but other things might be easier to figure out if you experiment with things you don’t know. That’s one of the best ways to learn.
 If something is still not clear, DM me, the author (**Marci599**) on Discord and I will try to help.
