@@ -34,7 +34,7 @@ This document briefly explains how to edit each component.
 - Theme settings can be edited in the Manage ThemeSettings menu.
 - Each item shows a short description at the bottom when clicked.
 - Try changing different options and see how they affect the game.
-- For more details, check this detailed tutorial: [[sfmb_tutorial_theme_settings.md]]{How to use the MapEditor ThemeSettings}
+- For more details, check this detailed tutorial: [[sfmb_tutorial_theme_settings.md]]{How to use ThemeSettings}
 
 ## Editing Sprite Files
 - In this game, sprites consist of `.sprite` files and `.png` files.
