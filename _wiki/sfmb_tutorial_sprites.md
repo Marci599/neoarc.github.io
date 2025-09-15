@@ -1,6 +1,6 @@
 ---
 layout  : wiki
-title   : SFMB - How to download and use the MM SpriteEditor
+title   : SFMB - How to work with sprites
 summary : 
 tag     : sfmb
 toc     : true
@@ -9,13 +9,17 @@ comment : true
 parent  : [[sfmb_tutorial]]
 latex   : false
 date    : 2021-06-22 01:37:00 +0900 
-updated : 2025-09-15 14:00:00 +0100
+updated : 2025-09-15 20:00:00 +0100
 ---
 * TOC
 {:toc}
 
-# What is SpriteEditor
-Some people think that the MM SpriteEditor is a sprite creator program, like Aseprite, but that’s not the case. The purpose of the MM SpriteEditor is to configure compatible spritesheets (e.g., `Item.png`) and sprites (e.g., `LayerOverworld.png`). These configurations are saved into a `.sprite` file with the same name as the spritesheet (e.g., `Item.sprite`). But what does “configure” actually mean, you may ask.
+# Summary
+This wiki explains how to download and use the MM SpriteEditor program, and how to work with sprite resources (`.png` & `.sprite` files)
+
+# MM SpriteEditor
+## What is it?
+Some people think that the MM SpriteEditor is a sprite creator program, like Aseprite, but that’s not the case. The purpose of the MM SpriteEditor is to configure compatible spritesheets (e.g., `Item.png`) and sprites (e.g., `LayerOverworld.png`). These configurations are saved into a `.sprite` file with the same name as the spritesheet (e.g., `Item.png` -> `Item.sprite`). But what does “configure” actually mean, you may ask.
 
 - <img width="500" alt="image" src="https://github.com/user-attachments/assets/328752f2-dab0-4576-9c4a-fa539688960d" />
 - <img width="500" alt="image" src="https://github.com/user-attachments/assets/0ca6aaef-a367-4a72-8ac8-dadc3c12e691" />
@@ -33,59 +37,62 @@ There are also cases where an image doesn’t contain a spritesheet but only a s
 
 And of course, there are exceptions when it’s not possible to create a `.sprite` file for a spritesheet or a sprite, since its configuration is hardcoded in the game itself (e.g., `TileOverworld`).
 
-# Download & Setup
+## Download & Setup
 
-## Where
+### Where
 
 - For beta testers: pinned messages in the `#resource-sprite` text channel.
 - For DEMO users: pinned in the `#demo-game-themes` forum channel.
 
-## How
+### How
 
-- Download the latest version.
-- Move it into your `Mario Multiverse` folder next to `Mario.exe`.
-- Open it there.
-- Make sure to check for updates by pressing the `Check update` button on the `Options etc.` tab.
-  - <img width="755" height="139" alt="image" src="https://github.com/user-attachments/assets/318f8bf7-61f0-4d72-975e-205e41bc0927" />
-- Open a `.sprite` file.
-  - You can use the open button inside the SpriteEditor program.
-    - <img width="376" height="138" alt="image" src="https://github.com/user-attachments/assets/c4ceff03-9cd6-4d79-96c4-be5b391aaa4f" />
-  - Or you can associate `.sprite` files with SpriteEditor and open them directly.
-	<details>
-	<summary>Show how</summary>
+1. Download the latest version.
+1. Move it into your `Mario Multiverse` folder next to `Mario.exe`.
+1. Open it there.
+1. Make sure to check for updates by pressing the `Check update` button on the `Options etc.` tab.
+	- <img width="755" height="139" alt="image" src="https://github.com/user-attachments/assets/318f8bf7-61f0-4d72-975e-205e41bc0927" />
+1. Open a `.sprite` file.
+	- You can use the open button inside the SpriteEditor program.
+    	- <img width="376" height="138" alt="image" src="https://github.com/user-attachments/assets/c4ceff03-9cd6-4d79-96c4-be5b391aaa4f" />
+	- Or you can associate `.sprite` files with SpriteEditor and open them directly.
+		<details>
+		<summary>Show how</summary>
+		
 	
-
-	
-	  1. <img width="670" height="232" alt="image" src="https://github.com/user-attachments/assets/9e5bf572-143a-4a2c-83d2-b85064b0c123" />
-	  2. <img width="446" height="621" alt="image" src="https://github.com/user-attachments/assets/80a06ea0-5968-45cc-b674-11d22bee628a" />
-	  3. <img width="1028" height="378" alt="image" src="https://github.com/user-attachments/assets/98e02d1d-02e4-4483-9b14-931fe2b1b2b2" />
-  
-	</details>
+		
+	  	1. <img width="670" height="232" alt="image" src="https://github.com/user-attachments/assets/9e5bf572-143a-4a2c-83d2-b85064b0c123" />
+	  	2. <img width="446" height="621" alt="image" src="https://github.com/user-attachments/assets/80a06ea0-5968-45cc-b674-11d22bee628a" />
+	  	3. <img width="1028" height="378" alt="image" src="https://github.com/user-attachments/assets/98e02d1d-02e4-4483-9b14-931fe2b1b2b2" />
+	  
+		</details>
  
-  - You can also click on the program icon to open recently used sprites.
-- It's also possible to create a `.sprite` file from a `.png` with the `new` button, but sometimes it's easier to just copy-paste an existing one.
+	- You can also click on the program icon to open recently used sprites.
+1. It's also possible to create a `.sprite` file from a `.png` with the `new` button, but sometimes it's easier to just copy-paste an existing one.
+1. If done right, you should see the spritesheet or sprite displayed.
+	- <img width="1698" height="1091" alt="image" src="https://github.com/user-attachments/assets/5749a6e4-7d7f-458c-b9ed-5f9b76ae31e3" />
+
     
-## Setup layout
+### Setup layout
 
 - You can rearrange the panes (sub-windows) by grabbing the top of its border and dragging it.
 - While dragging, small arrow icons will appear. If you drag one pane into it, it will attach to the edge of that another pane.
 - ![gif1](https://user-images.githubusercontent.com/40640441/122874734-9e720f00-d333-11eb-991e-88491c2b0a44.gif)
 
-# Panes
+## Panes
 
 There are several docking panes (sub-windows) in SpriteEditor.
 
-## Preview pane
+### Preview pane
 
 - Here you can see the animations and sprites with the set offset.
 - The intersection of the two lines is the origin of the current subject.
   - <img width="355" height="403" alt="image" src="https://github.com/user-attachments/assets/7b282998-2d05-447d-bf1e-0db48674501f" />
 
-## Properties pane
+### Properties pane
 
 - This is where the properties of `Sprite Frames` or `Animations` appear when you click on them.
 
-## Sprite frames pane
+### Sprite frames pane
 
 - If you click on one, it will appear in the `Preview` window with the set offset and area, and its properties will appear in the `Properties` window.
 - Here you can set the area where the sprite is, but this happens automatically when you `double-click` on it.
@@ -93,7 +100,8 @@ There are several docking panes (sub-windows) in SpriteEditor.
 - You can also set the offset here, but this is easier with the small arrow icons in the `Home` tab. With the offset you can shift the sprite from the center of the origin on the X and Y axes.
   - ![gif3](https://user-images.githubusercontent.com/40640441/122875978-3de3d180-d335-11eb-82b1-6342ad9ae62f.gif)
 
-### Common origins
+<details>
+<summary>Show common origins</summary>
 
 - Center Bottom:
   - Players
@@ -105,8 +113,9 @@ There are several docking panes (sub-windows) in SpriteEditor.
   - Background Layers
   - Fonts
   - Most UI-related resources
+</details>
 
-## Animations pane
+### Animations pane
 
 - If you click on one
 
@@ -130,9 +139,14 @@ There are several docking panes (sub-windows) in SpriteEditor.
   	- For example, in the `Helmet.sprite` file, the `sprite frame` with index 7 is always the front-facing spiny helmet sprite no matter what.
   - You can read the full list on this page: [[sfmb_sprite_index]]{Sprite indexes}
 
+## Hotkeys
+
+- CTRL + MouseWheel: Zoom
+- W, A, D, X keys: Move offset
+
 # Workflows
 
-- If you make changes to the `.png` files, make sure to press `Reload Image` on the `Home` tab so that SpriteEditor displays the latest version of the spritesheet image.
+- If you make changes to the `.png` files, make sure to press `Reload Image` on the `Home` tab in the SpriteEditor, so it displays the latest version of the spritesheet image.
 - If you are working with HD sprites (@2x), check the `Load HD Texture` checkbox on the `Options etc.` tab.
 - Regularly check for updates by pressing the `Check update` button on the `Options etc.` tab.
 - Don’t forget to save regularly!
@@ -166,7 +180,11 @@ You only need to set this when configuring players with the propeller power-up.
   - <img width="138" height="88" alt="image" src="https://github.com/user-attachments/assets/570e226a-1103-4b83-8f39-40264c6c8a07" />
 
 ## Enemies
-
+- By default enemies have one full enemy spritesheet, that contains all the enemy sprites.
+- If you don't want to use the full enemy spritesheet, you can create individual spritesheets for each enemy, by naming the sprite `E_{EnemyName}`.
+	- e.g. `E_FireBro` or `E_Bowser`.
+	- You can still keep the full enemy sprite sheet, because if there isn't an `E_{EnemyName}` override for an enemy, it will defualt back to the full enemy spritesheet.
+   
 - When working with enemies (either with the full enemies spritesheet or the individual enemy spritesheets), you need to configure their wing position(s) for each `Sprite frame`.
 - Click the desired `Wing` item to work with it.
   - <img width="96" height="75" alt="image" src="https://github.com/user-attachments/assets/c9855c3c-fad6-4e19-a101-e6ba478118d8" />
@@ -180,29 +198,61 @@ You only need to set this when configuring players with the propeller power-up.
   - `Single` only displays `Wing1`.
   - `Double` displays one left and one right wing.
   - `Double2` displays two left wings.
+ 
+## Items
+- By default items have one full item spritesheet, that contains all the item sprites.
+- If you don't want to use the full item spritesheet, you can create individual spritesheets for each item, by naming the sprite `I_{ItemName}`.
+	- e.g. `I_Coin` or `E_FireFlower`.
+	- You can still keep the full item sprite sheet, because if there isn't an `I_{ItemName}` override for an item, it will defualt back to the full item spritesheet.
 
-## Background Layer(s)
 
-- You can change at what height the `Sprite frames` should display in-game by changing their `OffsetY` value(s).
-- You can change the speed of the animation by adjusting the `Delay` in the `Properties` pane.
-- If you changed the size (width and/or height) of an existing:
-  - static background layer:
-    1. Select the first (and only) `Sprite Frame`
-    2. Check and note the currently set `OffsetY`
-    3. Click the `Full image` button on the `Home` tab to automatically set the sprite area as the entire image and reset the offsets to zero
-    4. Re-enter the old `OffsetY`
-  - animated background layer:
-    1. Adjust the area of each `Sprite Frame`
-    2. Adjust `OffsetY` if needed
-    3. Make sure all `Sprite Frames` have the same size (width and height)
-    4. Adjust frame count if you changed the number of `Sprite Frames`
+## Background layers
 
-- If you want to change how and what background layers appear in-game, please check this detailed tutorial: [[sfmb_how_to_make_parallax_background]]{How to implement background layers}.
+- Background layers must be named as the following: `Layer{DescriptiveName}`
+	- e.g. `LayerOverworldHills`
+- **Avoid using `FarBackground{something}.png` resources, it's obsolete!**
+- You can set at what height the `Sprite frames` should display in-game by changing their `OffsetY` values
+	- e.g. for clouds that appear and start repeating higher.
+    - `OffsetY`: `0` means fixed to ground.
+- You should always keep the `OffsetX` at `0`
+	- <img width="198" height="59" alt="image" src="https://github.com/user-attachments/assets/fe44f2ae-7d43-4505-aa65-cc25735acb1b" />
+- You can set the speed of the animation by adjusting the `Delay` in the `Properties` pane.
+  
+### Create new background layer
 
-# Hotkeys
+#### Static background layer
 
-- CTRL + MouseWheel: Zoom
-- W, A, D, X keys: Move offset
+1. Add one `Sprite frame`.
+2. Click the `Full image` button on the `Home` tab to automatically set the sprite area as the entire image and reset the offsets to zero.
+   - <img width="1278" height="878" alt="image" src="https://github.com/user-attachments/assets/70f218dc-7967-4732-9cf9-911ab68dd3bd" />
+
+   
+#### Animated background layers
+1. Add a `Sprite frame` for each frame and adjust the area for each, while keepeing the `OffsetX` at `0` and set `OffsetY` as needed.
+2. Make sure all `Sprite Frames` have the same size (width and height).
+3. Add an animation and name it the same as the file.
+    - e.g. File name: `LayerUnderground`, Aniamtion name: `Underground`
+5. Set frame count of the `Animation` to the number of `Sprite Frames`.
+    - <img width="1278" height="878" alt="image" src="https://github.com/user-attachments/assets/d6d0256f-98fe-4e1c-bf10-26245d868b39" />
+
+
+       
+### Modify existing background layer
+
+#### Static background layer
+
+1. Select the first (and only) `Sprite Frame`.
+2. Check and note the currently set `OffsetY`.
+3. Click the `Full image` button on the `Home` tab to automatically set the sprite area as the entire image and reset the offsets to zero.
+4. Re-enter the old `OffsetY`.
+   
+#### Animated background layer
+
+1. Adjust the area of each `Sprite Frame` and adjust `OffsetY` if needed.
+2. Make sure all `Sprite Frames` have the same size (width and height).
+3. Adjust frame count of the `Animation` if you changed the number of `Sprite Frames`.
+
+If you want to change how and what background layers appear in-game, please check this detailed tutorial: [[sfmb_tutorial_theme_settings]]{How to use the MapEditor ThemeSettings}.
 
 # Fin.
 
