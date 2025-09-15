@@ -18,5 +18,5 @@ latex   : false
 
 - [[sfmb_how_to_make_game_theme]]{How to make a game theme}
 - [[sfmb_tutorial_sprites]]{How to work with sprites}
-- [[sfmb_tutorial_theme_settings.md]]{How to use the MapEditor ThemeSettings}
+- [[sfmb_tutorial_theme_settings.md]]{How to use ThemeSettings}
 
