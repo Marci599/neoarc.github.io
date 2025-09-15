@@ -1,6 +1,6 @@
 ---
 layout  : wiki
-title   : SFMB - How to use sprite editor
+title   : SFMB - How to download and use the MM SpriteEditor
 summary : 
 tag     : sfmb
 toc     : true
@@ -9,134 +9,206 @@ comment : true
 parent  : [[sfmb_tutorial]]
 latex   : false
 date    : 2021-06-22 01:37:00 +0900 
-updated : 2025-09-09 12:37:00 +0100
+updated : 2025-09-15 14:00:00 +0100
 ---
 * TOC
 {:toc}
 
-# What is SpriteEditor, how to download & how it works.
+# How to download and use the MM SpriteEditor.
 
 ## What is SpriteEditor
-Néhányan úgy gondolják, hogy az MM SpriteEditor egy sprite készítő program, mint mondjuk az Aseprite, azonban ez nem így van. Az MM SpriteEditor lényege, hogy a kompatibilis sprite sheet-eket (pl. Item.png) és sprite-okat (pl. LayerOverworld.png) bekonfigurálhassuk. Ezek a konfigurációk a sprite sheet nevével megegyező .sprite fájlba kerülnek mentésre (pl. Item.sprite). De mit jelent hogy bekonfigurálhassuk? kérdezheted.
+Some people think that the MM SpriteEditor is a sprite creator program, like Aseprite, but that’s not the case. The purpose of the MM SpriteEditor is to configure compatible spritesheets (e.g., Item.png) and sprites (e.g., LayerOverworld.png). These configurations are saved into a .sprite file with the same name as the sprite sheet (e.g., Item.sprite). But what does “configure” actually mean, you may ask.
+
 - <img width="500" alt="image" src="https://github.com/user-attachments/assets/328752f2-dab0-4576-9c4a-fa539688960d" />
 - <img width="500" alt="image" src="https://github.com/user-attachments/assets/0ca6aaef-a367-4a72-8ac8-dadc3c12e691" />
 
-Egy sprite sheet több sprite-ból áll. Ezek a sprite-ok a sprite sheet-en különböző helyen helyezkedhetnek el, különböző méretekben. A sprite editor elsődleges célja ezeket beállítani.
-Ezen kívűl itt tudod beállítani, hogy:
-- a játék a subject eredeti origójához képest mennyire legyen eltolva az x y kordinátán,
-- a játékosoknak hol helyezkedjen el sprite frame-enként a helmet-ük (Buzzy, Spiny, Pumpkin and Santa) és hogy milyen irányba és szögbe álljanak,
-- hol helyezkedjen el a propellerük és hogy azok a játékos előtt, mögött vagy sehol se látszódjanak,
-- és az ellenségeknek hol helyezkedjen el a szárnyuk / szárnyaik.
+A sprite sheet consists of multiple sprites. These sprites can appear in different positions on the sheet, with different sizes. The main goal of the sprite editor is to set these up.
 
-Van olyan is, amikor egy kép nem sprite sheet-et tartalmaz, hanem csak egy sprite-ot, mint modjuk az animálatlan hátterek (pl SMB LayerOverworld.png).
+In addition, here you can also configure things like:
+- How much the subject should be offset on the X and Y axis compared to its original origin.
+- Where the helmets (Buzzy, Spiny, Pumpkin and Santa) of the player should be placed for each sprite frame, and in what direction and angle they should face.
+- Where their propellers should be positioned and whether they appear in front of the player, behind, or not at all.
+- Where the wing(s) of enemies should be placed.
+- Speed, frame count, and loop type of custom-made or predefined animations.
 
-És természetesen vannak kivételek is, amikor egy sprite sheet-hez / sprite-hoz nem lehet .sprite file-t készíteni, nem lehet konfigurálni, mivel a játék kódjában van bekonfigurálva (pl. TileOverworld)
+There are also cases where an image doesn’t contain a sprite sheet but only a single sprite, like unanimated backgrounds (e.g., SMB LayerOverworld.png).
+
+And of course, there are exceptions when it’s not possible to create a .sprite file for a sprite sheet or a sprite, since its configuration is hardcoded in the game itself (e.g., TileOverworld).
 
 ## Download & Setup
-- Where:
-	- For beta testers: pinned messages in the `#resource-sprite` text channel.
-	- For DEMO users: pinned in the `#demo-game-themes` forum channel.
-- How
-	- Download the latest version.
-	- Move it into your `Mario Multiverse` folder next to `Mario.exe`.
-	- Open it there.
- 	- Make sure to check for updates on the Options etc. tab.
-  		- <img width="755" height="139" alt="image" src="https://github.com/user-attachments/assets/318f8bf7-61f0-4d72-975e-205e41bc0927" />
-	- Open a `.sprite` file.
-		- You can use the open button inside the SpriteEditor program
-  			- <img width="376" height="138" alt="image" src="https://github.com/user-attachments/assets/c4ceff03-9cd6-4d79-96c4-be5b391aaa4f" />
-		- or you can associate the `.sprite` files with SpriteEditor and open the `.sprite` file directly.
-  			1. <img width="670" height="232" alt="image" src="https://github.com/user-attachments/assets/9e5bf572-143a-4a2c-83d2-b85064b0c123" />
-	 		2. <img width="446" height="621" alt="image" src="https://github.com/user-attachments/assets/80a06ea0-5968-45cc-b674-11d22bee628a" />
-			3. <img width="1028" height="378" alt="image" src="https://github.com/user-attachments/assets/98e02d1d-02e4-4483-9b14-931fe2b1b2b2" />
-   		- You can also click on the program icon and open recently opened sprites.
-     - It's also possible to create a .sprite file from a png with the `new` button, but sometimes it's easier to just copy paste an existing one.
 
+### Where
+
+- For beta testers: pinned messages in the `#resource-sprite` text channel.
+- For DEMO users: pinned in the `#demo-game-themes` forum channel.
+
+### How
+
+- Download the latest version.
+- Move it into your `Mario Multiverse` folder next to `Mario.exe`.
+- Open it there.
+- Make sure to check for updates by pressing the `Check update` button on the `Options etc.` tab.
+  - <img width="755" height="139" alt="image" src="https://github.com/user-attachments/assets/318f8bf7-61f0-4d72-975e-205e41bc0927" />
+- Open a `.sprite` file.
+  - You can use the open button inside the SpriteEditor program.
+    - <img width="376" height="138" alt="image" src="https://github.com/user-attachments/assets/c4ceff03-9cd6-4d79-96c4-be5b391aaa4f" />
+  - Or you can associate `.sprite` files with SpriteEditor and open them directly.
+	<details>
+	<summary>Show how</summary>
+	
+
+	
+	  1. <img width="670" height="232" alt="image" src="https://github.com/user-attachments/assets/9e5bf572-143a-4a2c-83d2-b85064b0c123" />
+	  2. <img width="446" height="621" alt="image" src="https://github.com/user-attachments/assets/80a06ea0-5968-45cc-b674-11d22bee628a" />
+	  3. <img width="1028" height="378" alt="image" src="https://github.com/user-attachments/assets/98e02d1d-02e4-4483-9b14-931fe2b1b2b2" />
+  
+	</details>
  
-- Setup layout: You can rearrange the windows by grabbing the top of the window border and start dragging. 
-	- In this case, small arrow icons will appear, if you drag one into it, it will attach the window to the edge of another.
+  - You can also click on the program icon to open recently used sprites.
+- It's also possible to create a `.sprite` file from a `.png` with the `new` button, but sometimes it's easier to just copy-paste an existing one.
+    
+### Setup layout
+
+- You can rearrange the panes (sub-windows) by grabbing the top of its border and dragging it.
+- While dragging, small arrow icons will appear. If you drag one pane into it, it will attach to the edge of that another pane.
 - ![gif1](https://user-images.githubusercontent.com/40640441/122874734-9e720f00-d333-11eb-991e-88491c2b0a44.gif)
 
 ## Panes
-There are several docking-panes (windows) in SpriteEditor. 
+
+There are several docking panes (sub-windows) in SpriteEditor.
 
 ### Preview pane
+
 - Here you can see the animations and sprites with the set offset.
 - The intersection of the two lines is the origin of the current subject.
-	- <img width="355" height="403" alt="image" src="https://github.com/user-attachments/assets/7b282998-2d05-447d-bf1e-0db48674501f" />
+  - <img width="355" height="403" alt="image" src="https://github.com/user-attachments/assets/7b282998-2d05-447d-bf1e-0db48674501f" />
 
 ### Properties pane
-- This is where the properties of `Sprite frames` or `Animations` appear if you click on them.
+
+- This is where the properties of `Sprite Frames` or `Animations` appear when you click on them.
 
 ### Sprite frames pane
-- If you click on one of them, it will appear in the `Preview` window with the set offset and its properties will appear in the `Properties` window. 
-- Here you can set the area where the sprite is, but this happens automatically when you `double click` on it.
-	- ![gif2](https://user-images.githubusercontent.com/40640441/122875522-aaaa9c00-d334-11eb-9995-283d946766fb.gif)
-- You can also set the offset here, but this is easier with the small arrow icons in the Home tab. With the offset you can shift the sprite from the center of the origin on the x and y coordinates.
-	- ![gif3](https://user-images.githubusercontent.com/40640441/122875978-3de3d180-d335-11eb-82b1-6342ad9ae62f.gif)
+
+- If you click on one, it will appear in the `Preview` window with the set offset and area, and its properties will appear in the `Properties` window.
+- Here you can set the area where the sprite is, but this happens automatically when you `double-click` on it.
+  - ![gif2](https://user-images.githubusercontent.com/40640441/122875522-aaaa9c00-d334-11eb-9995-283d946766fb.gif)
+- You can also set the offset here, but this is easier with the small arrow icons in the `Home` tab. With the offset you can shift the sprite from the center of the origin on the X and Y axes.
+  - ![gif3](https://user-images.githubusercontent.com/40640441/122875978-3de3d180-d335-11eb-82b1-6342ad9ae62f.gif)
+
 #### Common origins
+
 - Center Bottom:
-	- Players
-	- Enemies
- 	- Background Objects
-	- Items.
- 	- So most things that can interact with the ground 
+  - Players
+  - Enemies
+  - Background Objects
+  - Items
+  - Most things that interact with the ground
 - Left Top (x:0; y:0):
-	- Background Layers
-	- Fonts
- 	- Most UI related resources
- 
+  - Background Layers
+  - Fonts
+  - Most UI-related resources
+
 ### Animations pane
+
 - If you click on one
-	- the animation with the set offset will appear in the `Preview` pane.
-	- and its properties will appear in the `Properties` pane. 
-		- There you can set which frame to start from (`FirstFrame`) 
-		- How many of the upcoming sprite frames it should use. (`FrameCount`). 
-		- The delay between frames (-1 means to use the default) (`Delay`).
-  		- And if it should loop or play once (`LoopType`)
-- You can also create your own animation but name of animations are defined in game.
-	- Some by the ThemeSettings
- 		- Eg. Background Objects, Background Layers
-	- And some by internal game code 
-		- Eg. Players, Enemies
-- Sometimes you only create an "animation" to reference it from the ThemeSettings editor. That means you don't create a real animation with frames, you basically just name a sprite to reference it later.
-	- Eg. Background Objects or SMB World Flags.
-- And lastly some spritesheets don't support `aniamtions` at all. Those use predefined sprite frames indexes for specific sprites.
-	- For example in the `Helmet.sprite` file the `sprite frame` with the index 7 is always the frint facing spiny helmet sprite no metter what.
- 	- You can read the full list in this page: [[sfmb_sprite_index]]{Sprite indexes}
- 
-## Player sprites
-- For all the possible animations, you can check already existing player `.sprite` files.
-- When working with player sprites you not only need to create and configure each `Sprite frame` and `Animation`, but also the helmet and propeller offsets. But before you do that, make sure that the `Helmet` resource (`.png` & `.spirte` files) is already created and configured.
-### Helmets
-- Select a `Sprite frame` on the `Sprite frames` pane and click on the `Helmet` item. This displays the helmet sprite in the `Preview` pane.
-	- <img width="365" height="109" alt="image" src="https://github.com/user-attachments/assets/bc0d255c-f6d7-4669-848e-9ec7af0e2ea6" />
- 	- <img width="219" height="398" alt="image" src="https://github.com/user-attachments/assets/e55a72f9-b8dd-4ea8-b39f-5fbc521abdd6" />
-	- You can change which helmet to display by changing the selected item in the `Helmet preview`.
- 		- <img width="164" height="88" alt="image" src="https://github.com/user-attachments/assets/a987aa88-67a7-4159-84b6-a35cfed83819" />
-- To change the offset of the helmet you need to use the same arrow icons on the `Home` tab that you use for changing the offset of the `Sprite frames`.
-- You also need to define what direction the player is looking if its head is visible by selecting an item in the `Face direction for Helmet`, so that the correctly orientated helmet can be displayed.
-	- <img width="225" height="90" alt="image" src="https://github.com/user-attachments/assets/406bc0e0-5885-4f5b-b421-65998ffc698a" />
-- It's also possible to change the angle of the helmet by changing the `FaceAngle` field in the `Properites` pane.
-	- Eg. when the player is looking up or is ground pounding.
-		- <img width="219" height="361" alt="image" src="https://github.com/user-attachments/assets/858c1490-b047-400b-a267-ea7d2955a57b" />
 
-### Propeller
-You only need to set it when configuring players with the propeller powerup.
-- Click the `propeller` item in order to display it in the `Preview` pane.
-- It's basically the same thing as the helmets, but without face directions.
-- You can change its Z order (behind or in front of player sprite) or hide it competely for specific situations.
-	- <img width="138" height="88" alt="image" src="https://github.com/user-attachments/assets/570e226a-1103-4b83-8f39-40264c6c8a07" />
+  - <img width="204" height="75" alt="image" src="https://github.com/user-attachments/assets/0c133ea2-7ca3-463e-9bac-3c8f612485c3" /> 
+  - the animation with the set offset and area will appear in the `Preview` pane.
+    - ![Animation](https://github.com/user-attachments/assets/ebeff39c-dcf3-433f-ab64-726ee5244f2a)
+  - and its properties will appear in the `Properties` pane.
+    - There you can set which frame to start from (`FirstFrame`).
+    - How many of the following sprite frames it should use (`FrameCount`).
+    - The delay between frames (where -1 means to use the default) (`Delay`).
+    - Whether it should loop or play once (`LoopType`).
+- You can also create your own animations, but the names of animations are defined in the game.
+  - Some by the ThemeSettings
+    - e.g. Background Objects, Background Layers
+  - And some by internal game code
+    - e.g. Players, Enemies
+- Sometimes you only create an "animation" to reference it from the ThemeSettings editor. That means you don't create a real animation with frames, you just name a sprite to reference it later.
+  - e.g. Background Objects or SMB World Flags.
+- Some spritesheets don't support animations at all. Those use predefined sprite frame indexes for specific sprites.
+  - e.g. `Enemy.sprite` or `Helmet.sprite`.
+  	- For example, in the `Helmet.sprite` file, the `sprite frame` with index 7 is always the front-facing spiny helmet sprite no matter what.
+  - You can read the full list on this page: [[sfmb_sprite_index]]{Sprite indexes}
 
+## Workflows
 
-## Enemies
-// TODO
+- If you make changes to the `.png` files, make sure to press `Reload Image` on the `Home` tab so that SpriteEditor displays the latest version of the spritesheet image.
+- If you are working with HD sprites (@2x), check the `Load HD Texture` checkbox on the `Options etc.` tab.
+- Regularly check for updates by pressing the `Check update` button on the `Options etc.` tab.
+- Don’t forget to save regularly!
+
+### Player sprites
+
+- For all possible animations, you can check existing player `.sprite` files.
+- When working with player sprites, you not only need to create and configure each `Sprite frame` and `Animation`, but also the helmet and propeller offsets. But before you do that, make sure that the `Helmet` resource (`.png` & `.sprite` files) is already created and configured.
+
+#### Helmets
+
+- Click on the `Helmet` item and select a `Sprite frame` in the `Sprite frames` pane. If this doesn't make the helmet display in the `Preview` pane, click on one of the arrows in the `Home` tab.
+  - <img width="365" height="109" alt="image" src="https://github.com/user-attachments/assets/bc0d255c-f6d7-4669-848e-9ec7af0e2ea6" />
+  - <img width="219" height="398" alt="image" src="https://github.com/user-attachments/assets/e55a72f9-b8dd-4ea8-b39f-5fbc521abdd6" />
+  - You can change which helmet is displayed by changing the selected item in the `Helmet preview`.
+    - <img width="164" height="88" alt="image" src="https://github.com/user-attachments/assets/a987aa88-67a7-4159-84b6-a35cfed83819" />
+- To change the helmet offset, use the arrow icons on the `Home` tab.
+- You also need to define what direction the player is facing (if the head is visible) by selecting an item in `Face direction for Helmet`, so the correctly oriented helmet can be displayed.
+  - <img width="225" height="90" alt="image" src="https://github.com/user-attachments/assets/406bc0e0-5885-4f5b-b421-65998ffc698a" />
+- You can also change the angle of the helmet by adjusting the `FaceAngle` field in the `Properties` pane.
+  - e.g. when the player is looking up or ground pounding
+    - <img width="219" height="361" alt="image" src="https://github.com/user-attachments/assets/858c1490-b047-400b-a267-ea7d2955a57b" />
+
+#### Propeller
+
+You only need to set this when configuring players with the propeller power-up.
+
+- Click the `Propeller` item to work with it.
+- It's basically the same as helmets, but without face directions.
+- You can change its Z-order (to be behind or in front of the player sprite) or hide it completely for specific situations.
+  - <img width="138" height="88" alt="image" src="https://github.com/user-attachments/assets/570e226a-1103-4b83-8f39-40264c6c8a07" />
+
+### Enemies
+
+- When working with enemies (either with the full enemies sprite sheet or the individual enemy sprite sheets), you need to configure their wing position(s) for each `Sprite frame`.
+- Click the desired `Wing` item to work with it.
+  - <img width="96" height="75" alt="image" src="https://github.com/user-attachments/assets/c9855c3c-fad6-4e19-a101-e6ba478118d8" />
+  - `Wing1` is the left wing (default), `Wing2` is the right wing (can be set to display as a left wing) (optional).
+  - You can set the offset of each wing separately.
+- The workflow is very similar to helmets, but with different options.
+- You can decide the `Wing style` of the sprite to display in-game:
+  - <img width="228" height="88" alt="image" src="https://github.com/user-attachments/assets/314c2e53-23a7-45e0-9cbd-3e0ab539c41c" />
+  - `Default` is decided by the game.
+  - `None` doesn’t display wings even if set.
+  - `Single` only displays `Wing1`.
+  - `Double` displays one left and one right wing.
+  - `Double2` displays two left wings.
+
+### Background Layer(s)
+
+- You can change at what height the `Sprite frames` should display in-game by changing their `OffsetY` value(s).
+- You can change the speed of the animation by adjusting the `Delay` in the `Properties` pane.
+- If you changed the size (width and/or height) of an existing:
+  - static background layer:
+    1. Select the first (and only) `Sprite Frame`
+    2. Check and note the currently set `OffsetY`
+    3. Click the `Full image` button on the `Home` tab to automatically set the sprite area as the entire image and reset the offsets to zero
+    4. Re-enter the old `OffsetY`
+  - animated background layer:
+    1. Adjust the area of each `Sprite Frame`
+    2. Adjust `OffsetY` if needed
+    3. Make sure all `Sprite Frames` have the same size (width and height)
+    4. Adjust frame count if you changed the number of `Sprite Frames`
+
+- If you want to change how and what background layers appear in-game, please check this detailed tutorial: [[sfmb_how_to_make_parallax_background]]{How to make backgrounds}.
 
 ## Hotkeys
+
 - CTRL + MouseWheel: Zoom
-- W, A, D, X key: Move offset
+- W, A, D, X keys: Move offset
 
 ## Fin.
-That’s not all, but other things might be easier to figure out if you try things you don’t know, because that’s one of the best way to learn.
-If something is still not clear, DM me, the author (**Marci599**) on discord and I will try to help.
+
+That’s not all, but other things might be easier to figure out if you experiment with things you don’t know. That’s one of the best ways to learn.
+If something is still not clear, DM me, the author (**Marci599**) on Discord and I will try to help.
+
 
