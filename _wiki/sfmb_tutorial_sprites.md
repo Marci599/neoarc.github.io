@@ -252,7 +252,7 @@ You only need to set this when configuring players with the propeller power-up.
 2. Make sure all `Sprite Frames` have the same size (width and height).
 3. Adjust frame count of the `Animation` if you changed the number of `Sprite Frames`.
 
-If you want to change how and what background layers appear in-game, please check this detailed tutorial: [[sfmb_tutorial_theme_settings]]{How to use the MapEditor ThemeSettings}.
+If you want to change how and what background layers appear in-game, please check this detailed tutorial: [[sfmb_tutorial_theme_settings]]{How to use the ThemeSettings}.
 
 # Fin.
 
