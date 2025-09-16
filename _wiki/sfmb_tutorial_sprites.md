@@ -21,10 +21,9 @@ This wiki explains how to download and use the MM SpriteEditor program, and how 
 ## What is it?
 Some people think that the MM SpriteEditor is a sprite creator program, like Aseprite, but that’s not the case. The purpose of the MM SpriteEditor is to configure compatible spritesheets (e.g., `Item.png`) and sprites (e.g., `LayerOverworld.png`). These configurations are saved into a `.sprite` file with the same name as the spritesheet (e.g., `Item.png` -> `Item.sprite`). But what does “configure” actually mean, you may ask.
 
+A spritesheet consists of multiple sprites. These sprites can appear in different positions on the sheet, with different sizes. The main goal of the sprite editor is to set these up.
 - <img width="500" alt="image" src="https://github.com/user-attachments/assets/328752f2-dab0-4576-9c4a-fa539688960d" />
 - <img width="500" alt="image" src="https://github.com/user-attachments/assets/0ca6aaef-a367-4a72-8ac8-dadc3c12e691" />
-
-A spritesheet consists of multiple sprites. These sprites can appear in different positions on the sheet, with different sizes. The main goal of the sprite editor is to set these up.
 
 In addition, here you can also configure things like:
 - How much the subject should be offset on the X and Y axis compared to its original origin.
@@ -123,10 +122,10 @@ There are several docking panes (sub-windows) in SpriteEditor.
   - the animation with the set offset and area will appear in the `Preview` pane.
     - ![Animation](https://github.com/user-attachments/assets/ebeff39c-dcf3-433f-ab64-726ee5244f2a)
   - and its properties will appear in the `Properties` pane.
-    - There you can set which frame to start from (`FirstFrame`).
-    - How many of the following sprite frames it should use (`FrameCount`).
-    - The delay between frames (where -1 means to use the default) (`Delay`).
-    - Whether it should loop or play once (`LoopType`).
+    - `FirstFrame` -> Set which frame to start from.
+    - `FrameCount` -> How many of the following sprite frames it should use.
+    - `Delay     ` -> Delay between frames (`-1` means to use the default).
+    - `LoopType  ` -> Whether it should loop or play once.
 - You can also create your own animations, but the names of animations are defined in the game.
   - Some by the ThemeSettings
     - e.g. Background Objects, Background Layers
@@ -141,8 +140,9 @@ There are several docking panes (sub-windows) in SpriteEditor.
 
 ## Hotkeys
 
-- CTRL + MouseWheel: Zoom
-- W, A, D, X keys: Move offset
+- `Double-click`: Auto select area and offset of sprite
+- `CTRL` + `Scroll wheel`: Zoom
+- `W`, `A`, `D`, `X` keys: Move offset
 
 # Workflows
 
@@ -193,11 +193,11 @@ You only need to set this when configuring players with the propeller power-up.
 - The workflow is very similar to helmets, but with different options.
 - You can decide the `Wing style` of the sprite to display in-game:
   - <img width="228" height="88" alt="image" src="https://github.com/user-attachments/assets/314c2e53-23a7-45e0-9cbd-3e0ab539c41c" />
-  - `Default` is decided by the game.
-  - `None` doesn’t display wings even if set.
-  - `Single` only displays `Wing1`.
-  - `Double` displays one left and one right wing.
-  - `Double2` displays two left wings.
+  - `Default` -> decided by the game.
+  - `None   ` -> doesn’t display wings even if set.
+  - `Single ` -> only displays `Wing1`.
+  - `Double ` -> displays one left and one right wing.
+  - `Double2` -> displays two left wings.
  
 ## Items
 - By default items have one full item spritesheet, that contains all the item sprites.
