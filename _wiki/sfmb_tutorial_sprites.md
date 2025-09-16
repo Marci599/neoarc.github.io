@@ -15,10 +15,13 @@ updated : 2025-09-15 20:00:00 +0100
 {:toc}
 
 # Summary
+
 This wiki explains how to download and use the MM SpriteEditor program, and how to work with sprite resources (`.png` & `.sprite` files)
 
 # MM SpriteEditor
+
 ## What is it?
+
 Some people think that the MM SpriteEditor is a sprite creator program, like Aseprite, but that’s not the case. The purpose of the MM SpriteEditor is to configure compatible spritesheets (e.g., `Item.png`) and sprites (e.g., `LayerOverworld.png`). These configurations are saved into a `.sprite` file with the same name as the spritesheet (e.g., `Item.png` -> `Item.sprite`). But what does “configure” actually mean, you may ask.
 
 A spritesheet consists of multiple sprites. These sprites can appear in different positions on the sheet, with different sizes. The main goal of the sprite editor is to set these up.
@@ -257,6 +260,7 @@ If you want to change how and what background layers appear in-game, please chec
 # Fin.
 
 That’s not all, but other things might be easier to figure out if you experiment with them. That’s one of the best ways to learn!
+
 If something is still not clear, DM me, the author (**Marci599**) on Discord and I will try to help!
 
 
