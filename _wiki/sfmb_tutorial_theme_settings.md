@@ -18,14 +18,14 @@ latex   : false
 
 This wiki explains how you can create and configure game themes using the ThemeSettings editor found in the MapEditor.
 You can manage things such as:
+- GameThemes & Themes
 - Animated parallax auto-scrolling background layers
 - Custom sky colors
 - Background objects
-- Override which resources specific themes should use
 
 This wiki doesn't cover everything, but you can easily figure the rest out by yourself. I hope this helps!
 
-# Enter `Theme definitions`
+# 1. Enter `Theme definitions`
 
 1. Click the `Manage GameThemes` button on the `home` tab of the Map Editor.
 	- <img width="814" height="113" alt="image" src="https://github.com/user-attachments/assets/3299c0ff-107c-43d1-bf7e-7a820ea7a60a" />
@@ -37,7 +37,7 @@ This wiki doesn't cover everything, but you can easily figure the rest out by yo
 	- <img width="632" height="86" alt="image" src="https://github.com/user-attachments/assets/5ff871a4-ce17-48c1-96b6-2e68d5f1d876" />
 1. Click the `Edit ThemeDefinitions` button at the bottom of the window.
 
-# Add themes
+# 2. Add themes
 
 On the `Theme` tab you can create, browse and configure themes for your GameTheme.
 
@@ -55,7 +55,8 @@ On the `Theme` tab you can create, browse and configure themes for your GameThem
    			- <img width="831" height="365" alt="image" src="https://github.com/user-attachments/assets/6dd07c65-1366-4638-815d-5e957e7579e2" />
 1. We will get back to the other options here later.
 
-# Add background layers
+# 3. Add background layers
+
 On the `Background Layer` tab you can link, browse and configure background layer resources for your GameTheme.
 
 1. Make sure the background layer resources are created and configured correctly (`.png` & `.sprite` files).
@@ -76,9 +77,10 @@ On the `Background Layer` tab you can link, browse and configure background laye
 1. To use these, you have to enter the added names to a theme, in order, separated by commas without spaces (e.g. `OverworldHills,OverworldClouds`). Layers cover each other from front to back.
 	- <img width="1046" height="221" alt="image" src="https://github.com/user-attachments/assets/a56edc10-0d87-45b9-8138-03ea8d988fda" />
 
-# Add background colors
+# 4. Add background colors
 
 On the `Background Color` tab you can create and browse named background colors.
+
 By using `Background color`s for the sky instead of a separate sky sprite layer, the color of the sky can change with wind, rain and lightnings.
 
 1. Add and name a `Background color` (e.g. `Sky`).
@@ -92,5 +94,6 @@ You should ignore the `Color of {something}` fields on the main ThemeSettings wi
 
 # Fin.
 
-These are still just the basics, there are still plenty of options in `ThemeSettings`. Don't be afraid and try experimenting with the options!
+These are still just the basics, there are still plenty of options in `ThemeSettings`. Don't be afraid and try experimenting with it!
+
 If something is not clear, DM me, the author (**marci599**), and if I'm available I’ll try to help!
