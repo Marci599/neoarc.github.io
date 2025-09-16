@@ -25,8 +25,8 @@ This wiki explains how to download and use the MM SpriteEditor program, and how 
 Some people think that the MM SpriteEditor is a sprite creator program, like Aseprite, but that’s not the case. The purpose of the MM SpriteEditor is to configure compatible spritesheets (e.g., `Item.png`) and sprites (e.g., `LayerOverworld.png`). These configurations are saved into a `.sprite` file with the same name as the spritesheet (e.g., `Item.png` -> `Item.sprite`). But what does “configure” actually mean, you may ask.
 
 A spritesheet consists of multiple sprites. These sprites can appear in different positions on the sheet, with different sizes. The main goal of the sprite editor is to set these up.
-- <img width="500" alt="image" src="https://github.com/user-attachments/assets/328752f2-dab0-4576-9c4a-fa539688960d" />
-- <img width="500" alt="image" src="https://github.com/user-attachments/assets/0ca6aaef-a367-4a72-8ac8-dadc3c12e691" />
+- ![img](https://github.com/user-attachments/assets/328752f2-dab0-4576-9c4a-fa539688960d)
+- ![img](https://github.com/user-attachments/assets/0ca6aaef-a367-4a72-8ac8-dadc3c12e691)
 
 In addition, here you can also configure things like:
 - How much the subject should be offset on the X and Y axis compared to its original origin.
@@ -52,26 +52,24 @@ And of course, there are exceptions when it’s not possible to create a `.sprit
 1. Move it into your `Mario Multiverse` folder next to `Mario.exe`.
 1. Open it there.
 1. Make sure to check for updates by pressing the `Check update` button on the `Options etc.` tab.
-	- <img width="755" height="139" alt="image" src="https://github.com/user-attachments/assets/318f8bf7-61f0-4d72-975e-205e41bc0927" />
+	- ![img](https://github.com/user-attachments/assets/318f8bf7-61f0-4d72-975e-205e41bc0927)
 1. Open a `.sprite` file.
 	- You can use the open button inside the SpriteEditor program.
-    	- <img width="376" height="138" alt="image" src="https://github.com/user-attachments/assets/c4ceff03-9cd6-4d79-96c4-be5b391aaa4f" />
+    	- ![img](https://github.com/user-attachments/assets/c4ceff03-9cd6-4d79-96c4-be5b391aaa4f)
 	- Or you can associate `.sprite` files with SpriteEditor and open them directly.
 		<details>
 		<summary>Show how</summary>
 		
-	
-		
-	  	1. <img width="670" height="232" alt="image" src="https://github.com/user-attachments/assets/9e5bf572-143a-4a2c-83d2-b85064b0c123" />
-	  	2. <img width="446" height="621" alt="image" src="https://github.com/user-attachments/assets/80a06ea0-5968-45cc-b674-11d22bee628a" />
-	  	3. <img width="1028" height="378" alt="image" src="https://github.com/user-attachments/assets/98e02d1d-02e4-4483-9b14-931fe2b1b2b2" />
+	  	1. ![img](https://github.com/user-attachments/assets/9e5bf572-143a-4a2c-83d2-b85064b0c123)
+	  	2. ![img](https://github.com/user-attachments/assets/80a06ea0-5968-45cc-b674-11d22bee628a)
+	  	3. ![img](https://github.com/user-attachments/assets/98e02d1d-02e4-4483-9b14-931fe2b1b2b2)
 	  
 		</details>
  
 	- You can also click on the program icon to open recently used sprites.
 1. It's also possible to create a `.sprite` file from a `.png` with the `new` button, but sometimes it's easier to just copy-paste an existing one.
 1. If done right, you should see the spritesheet or sprite displayed.
-	- <img width="1698" height="1091" alt="image" src="https://github.com/user-attachments/assets/5749a6e4-7d7f-458c-b9ed-5f9b76ae31e3" />
+	- ![img](https://github.com/user-attachments/assets/5749a6e4-7d7f-458c-b9ed-5f9b76ae31e3)
 
     
 ### Setup layout
@@ -88,7 +86,7 @@ There are several docking panes (sub-windows) in SpriteEditor.
 
 - Here you can see the animations and sprites with the set offset.
 - The intersection of the two lines is the origin of the current subject.
-  - <img width="355" height="403" alt="image" src="https://github.com/user-attachments/assets/7b282998-2d05-447d-bf1e-0db48674501f" />
+  - ![img](https://github.com/user-attachments/assets/7b282998-2d05-447d-bf1e-0db48674501f)
 
 ### Properties pane
 
@@ -110,18 +108,18 @@ There are several docking panes (sub-windows) in SpriteEditor.
   - Enemies
   - Background Objects
   - Items
-  - Most things that interact with the ground
+  - So most things that interact with the ground
 - Left Top (x:0; y:0):
   - Background Layers
   - Fonts
-  - Most UI-related resources
+  - So most UI-related resources
 </details>
 
 ### Animations pane
 
 - If you click on one
 
-  - <img width="204" height="75" alt="image" src="https://github.com/user-attachments/assets/0c133ea2-7ca3-463e-9bac-3c8f612485c3" /> 
+  - ![img](https://github.com/user-attachments/assets/0c133ea2-7ca3-463e-9bac-3c8f612485c3)
   - the animation will appear in the `Preview` pane.
     - ![Animation](https://github.com/user-attachments/assets/ebeff39c-dcf3-433f-ab64-726ee5244f2a)
   - and its properties will appear in the `Properties` pane.
@@ -162,16 +160,16 @@ There are several docking panes (sub-windows) in SpriteEditor.
 ### Helmets
 
 - Click on the `Helmet` item and select a `Sprite frame` in the `Sprite frames` pane. If this doesn't make the helmet display in the `Preview` pane, click on one of the arrows in the `Home` tab.
-  - <img width="365" height="109" alt="image" src="https://github.com/user-attachments/assets/bc0d255c-f6d7-4669-848e-9ec7af0e2ea6" />
-  - <img width="219" height="398" alt="image" src="https://github.com/user-attachments/assets/e55a72f9-b8dd-4ea8-b39f-5fbc521abdd6" />
+  - ![img](https://github.com/user-attachments/assets/bc0d255c-f6d7-4669-848e-9ec7af0e2ea6)
+  - ![img](https://github.com/user-attachments/assets/e55a72f9-b8dd-4ea8-b39f-5fbc521abdd6)
   - You can change which helmet is displayed by changing the selected item in the `Helmet preview`.
-    - <img width="164" height="88" alt="image" src="https://github.com/user-attachments/assets/a987aa88-67a7-4159-84b6-a35cfed83819" />
+    - ![img](https://github.com/user-attachments/assets/a987aa88-67a7-4159-84b6-a35cfed83819)
 - To change the helmet offset, use the arrow icons on the `Home` tab.
 - You also need to define what direction the player is facing (if the head is visible) by selecting an item in `Face direction for Helmet`, so the correctly oriented helmet can be displayed.
-  - <img width="225" height="90" alt="image" src="https://github.com/user-attachments/assets/406bc0e0-5885-4f5b-b421-65998ffc698a" />
+  - ![img](https://github.com/user-attachments/assets/406bc0e0-5885-4f5b-b421-65998ffc698a)
 - You can also change the angle of the helmet by adjusting the `FaceAngle` field in the `Properties` pane.
   - e.g. when the player is looking up or ground pounding
-    - <img width="219" height="361" alt="image" src="https://github.com/user-attachments/assets/858c1490-b047-400b-a267-ea7d2955a57b" />
+    - ![img](https://github.com/user-attachments/assets/858c1490-b047-400b-a267-ea7d2955a57b)
 
 ### Propeller
 
@@ -180,7 +178,7 @@ You only need to set this when configuring players with the propeller power-up.
 - Click the `Propeller` item to work with it.
 - It's basically the same as helmets, but without face directions.
 - You can change its Z-order (to be behind or in front of the player sprite) or hide it completely for specific situations.
-  - <img width="138" height="88" alt="image" src="https://github.com/user-attachments/assets/570e226a-1103-4b83-8f39-40264c6c8a07" />
+  - ![img](https://github.com/user-attachments/assets/570e226a-1103-4b83-8f39-40264c6c8a07)
 
 ## Enemies
 - By default enemies have one full enemy spritesheet, that contains all the enemy sprites.
@@ -190,12 +188,12 @@ You only need to set this when configuring players with the propeller power-up.
    
 - When working with enemies (either with the full enemies spritesheet or the individual enemy spritesheets), you need to configure their wing position(s) for each `Sprite frame`.
 - Click the desired `Wing` item to work with it.
-  - <img width="96" height="75" alt="image" src="https://github.com/user-attachments/assets/c9855c3c-fad6-4e19-a101-e6ba478118d8" />
+  - ![img](https://github.com/user-attachments/assets/c9855c3c-fad6-4e19-a101-e6ba478118d8)
   - `Wing1` is the left wing (default), `Wing2` is the right wing (can be set to display as a left wing) (optional).
   - You can set the offset of each wing separately.
 - The workflow is very similar to helmets, but with different options.
 - You can decide the `Wing style` of the sprite to display in-game:
-  - <img width="228" height="88" alt="image" src="https://github.com/user-attachments/assets/314c2e53-23a7-45e0-9cbd-3e0ab539c41c" />
+  - ![img](https://github.com/user-attachments/assets/314c2e53-23a7-45e0-9cbd-3e0ab539c41c)
   - `Default` -> decided by the game.
   - `None   ` -> doesn’t display wings even if set.
   - `Single ` -> only displays `Wing1`.
@@ -218,7 +216,7 @@ You only need to set this when configuring players with the propeller power-up.
 	- e.g. for clouds that appear and start repeating higher.
     - `OffsetY`: `0` means fixed to ground.
 - You should always keep the `OffsetX` at `0`
-	- <img width="198" height="59" alt="image" src="https://github.com/user-attachments/assets/fe44f2ae-7d43-4505-aa65-cc25735acb1b" />
+	- ![img](https://github.com/user-attachments/assets/fe44f2ae-7d43-4505-aa65-cc25735acb1b)
 - You can set the speed of the animation by adjusting the `Delay` in the `Properties` pane.
   
 ### Create new background layer
@@ -227,7 +225,7 @@ You only need to set this when configuring players with the propeller power-up.
 
 1. Add one `Sprite frame`.
 2. Click the `Full image` button on the `Home` tab to automatically set the sprite area as the entire image and reset the offsets to zero.
-   - <img width="1278" height="878" alt="image" src="https://github.com/user-attachments/assets/70f218dc-7967-4732-9cf9-911ab68dd3bd" />
+   - ![img](https://github.com/user-attachments/assets/70f218dc-7967-4732-9cf9-911ab68dd3bd)
 
    
 #### Animated background layers
@@ -236,7 +234,7 @@ You only need to set this when configuring players with the propeller power-up.
 3. Add an animation and name it the same as the file.
     - e.g. File name: `LayerUnderground`, Aniamtion name: `Underground`
 5. Set frame count of the `Animation` to the number of `Sprite Frames`.
-    - <img width="1278" height="878" alt="image" src="https://github.com/user-attachments/assets/d6d0256f-98fe-4e1c-bf10-26245d868b39" />
+    - ![img](https://github.com/user-attachments/assets/d6d0256f-98fe-4e1c-bf10-26245d868b39)
 
 
        
