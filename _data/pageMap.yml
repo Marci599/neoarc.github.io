@@ -236,15 +236,7 @@ sfmb_how_to_make_game_theme:
     summary: ""
     parent: sfmb_tutorial
     url: /wiki/sfmb_how_to_make_game_theme
-    updated: '2025-09-01 01:44:00 +0900'
-    children: []
-sfmb_how_to_make_parallax_background:
-    type: wiki
-    title: 'SFMB - How to make parallax or simple backgrounds'
-    summary: ""
-    parent: sfmb_tutorial
-    url: /wiki/sfmb_how_to_make_parallax_background
-    updated: '2022-08-23 08:23:23 +0900'
+    updated: '2025-09-15 20:00:00 +0100'
     children: []
 sfmb_how_to_setup_pro_controller:
     type: wiki
@@ -253,14 +245,6 @@ sfmb_how_to_setup_pro_controller:
     parent: sfmb_tutorial
     url: /wiki/sfmb_how_to_setup_pro_controller
     updated: '2022-01-14 00:00:00 +0900'
-    children: []
-sfmb_how_to_use_sprite_editor:
-    type: wiki
-    title: 'SFMB - How to use sprite editor'
-    summary: ""
-    parent: sfmb_tutorial
-    url: /wiki/sfmb_how_to_use_sprite_editor
-    updated: '2021-06-22 01:37:00 +0900'
     children: []
 sfmb_level_difficulty:
     type: wiki
@@ -332,8 +316,24 @@ sfmb_tutorial:
     summary: ""
     parent: sfmb_betatest
     url: /wiki/sfmb_tutorial
-    updated: '2021-06-22 01:27:13 +0900'
-    children: [sfmb_how_to_make_game_theme, sfmb_how_to_make_parallax_background, sfmb_how_to_setup_pro_controller, sfmb_how_to_use_sprite_editor]
+    updated: '2025-09-15 20:00:00 +0100'
+    children: [sfmb_how_to_make_game_theme, sfmb_how_to_setup_pro_controller, sfmb_tutorial_sprites, sfmb_tutorial_theme_settings]
+sfmb_tutorial_sprites:
+    type: wiki
+    title: 'SFMB - How to work with sprites'
+    summary: ""
+    parent: sfmb_tutorial
+    url: /wiki/sfmb_tutorial_sprites
+    updated: '2025-09-15 20:00:00 +0100'
+    children: []
+sfmb_tutorial_theme_settings:
+    type: wiki
+    title: 'SFMB - How to use ThemeSettings'
+    summary: ""
+    parent: sfmb_tutorial
+    url: /wiki/sfmb_tutorial_theme_settings
+    updated: '2025-09-15 20:00:00 +0100'
+    children: []
 sfmb_version_history:
     type: wiki
     title: 'SFMB - Version History'

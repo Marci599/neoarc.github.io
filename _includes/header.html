@@ -90,14 +90,25 @@
     <!-- 구글 번역기 가젯 -->
     <div>
         <div class="site-title-right google_translate" id="google_translate_element"></div>
+{% if page.tags contains "sfmb" %}
         <script type="text/javascript">  
             function googleTranslateElementInit() { new google.translate.TranslateElement({
-                pageLanguage: 'ko',
-                includedLanguages: 'ko,en,pt,es,ja', 
+                pageLanguage: 'en',
+                includedLanguages: 'ko,en,pt,es,ja',                 
                 layout: google.translate.TranslateElement.InlineLayout.SIMPLE, 
                 autoDisplay: true
             }, 'google_translate_element'); }  
         </script>  
+{% else %}
+        <script type="text/javascript">  
+            function googleTranslateElementInit() { new google.translate.TranslateElement({
+                pageLanguage: 'ko',
+                includedLanguages: 'ko,en,pt,es,ja',                 
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE, 
+                autoDisplay: true
+            }, 'google_translate_element'); }  
+        </script>  
+{% endif %}
         <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"> 
         </script>
     </div>

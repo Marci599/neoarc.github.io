@@ -24,9 +24,7 @@ sfmb:
     - {fileName: sfmb_exp_and_coin_table}
     - {fileName: sfmb_frequently_asked_question}
     - {fileName: sfmb_how_to_make_game_theme}
-    - {fileName: sfmb_how_to_make_parallax_background}
     - {fileName: sfmb_how_to_setup_pro_controller}
-    - {fileName: sfmb_how_to_use_sprite_editor}
     - {fileName: sfmb_level_difficulty}
     - {fileName: sfmb_mapeditor_guide}
     - {fileName: sfmb_privacy_and_security}
@@ -36,6 +34,8 @@ sfmb:
     - {fileName: sfmb_stage_rating}
     - {fileName: sfmb_trouble_shooting}
     - {fileName: sfmb_tutorial}
+    - {fileName: sfmb_tutorial_sprites}
+    - {fileName: sfmb_tutorial_theme_settings}
     - {fileName: sfmb_version_history}
     - {fileName: sfmb_why_do_you_like_this_game}
 게임:
