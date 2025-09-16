@@ -61,8 +61,10 @@ And of course, there are exceptions when it’s not possible to create a `.sprit
 		<summary>Show how</summary>
 		
 	  	1. ![img](https://github.com/user-attachments/assets/9e5bf572-143a-4a2c-83d2-b85064b0c123)
-	  	2. ![img](https://github.com/user-attachments/assets/80a06ea0-5968-45cc-b674-11d22bee628a)
-	  	3. ![img](https://github.com/user-attachments/assets/98e02d1d-02e4-4483-9b14-931fe2b1b2b2)
+   
+	  	3. ![img](https://github.com/user-attachments/assets/80a06ea0-5968-45cc-b674-11d22bee628a)
+   
+	  	5. ![img](https://github.com/user-attachments/assets/98e02d1d-02e4-4483-9b14-931fe2b1b2b2)
 	  
 		</details>
  
@@ -100,20 +102,30 @@ There are several docking panes (sub-windows) in SpriteEditor.
 - You can also set the offset here, but this is easier with the small arrow icons in the `Home` tab. With the offset you can shift the sprite from the center of the origin on the X and Y axes.
   - ![gif3](https://user-images.githubusercontent.com/40640441/122875978-3de3d180-d335-11eb-82b1-6342ad9ae62f.gif)
 
-<details>
-<summary>Show common origins</summary>
+	<details>
+	<summary>Show common origins</summary>
 
-- Center Bottom:
-  - Players
-  - Enemies
-  - Background Objects
-  - Items
-  - So most things that interact with the ground
-- Left Top (x:0; y:0):
-  - Background Layers
-  - Fonts
-  - So most UI-related resources
-</details>
+	- Center Bottom:
+    
+	  - Players
+     
+	  - Enemies
+     
+	  - Background Objects
+     
+	  - Items
+     
+	  - So most things that interact with the ground
+     
+	- Left Top (x:0; y:0):
+    
+	  - Background Layers
+     
+	  - Fonts
+     
+	  - So most UI-related resources
+    
+	</details>
 
 ### Animations pane
 
