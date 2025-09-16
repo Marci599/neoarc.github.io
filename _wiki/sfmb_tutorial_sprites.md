@@ -58,16 +58,17 @@ And of course, there are exceptions when it’s not possible to create a `.sprit
     	- ![img](https://github.com/user-attachments/assets/c4ceff03-9cd6-4d79-96c4-be5b391aaa4f)
 	- Or you can associate `.sprite` files with SpriteEditor and open them directly.
 		<details>
+
 		<summary>Show how</summary>
 		
-	  	1. ![img](https://github.com/user-attachments/assets/9e5bf572-143a-4a2c-83d2-b85064b0c123)
-   
-	  	3. ![img](https://github.com/user-attachments/assets/80a06ea0-5968-45cc-b674-11d22bee628a)
-   
-	  	5. ![img](https://github.com/user-attachments/assets/98e02d1d-02e4-4483-9b14-931fe2b1b2b2)
-	  
-		</details>
- 
+      <ol>
+        <li><img src="https://github.com/user-attachments/assets/9e5bf572-143a-4a2c-83d2-b85064b0c123" alt="img"></li>
+        <li><img src="https://github.com/user-attachments/assets/80a06ea0-5968-45cc-b674-11d22bee628a" alt="img"></li>
+        <li><img src="https://github.com/user-attachments/assets/98e02d1d-02e4-4483-9b14-931fe2b1b2b2" alt="img"></li>
+      </ol>
+      
+
+
 	- You can also click on the program icon to open recently used sprites.
 1. It's also possible to create a `.sprite` file from a `.png` with the `new` button, but sometimes it's easier to just copy-paste an existing one.
 1. If done right, you should see the spritesheet or sprite displayed.
@@ -105,26 +106,24 @@ There are several docking panes (sub-windows) in SpriteEditor.
 	<details>
 	<summary>Show common origins</summary>
 
-	- Center Bottom:
-    
-	  - Players
-     
-	  - Enemies
-     
-	  - Background Objects
-     
-	  - Items
-     
-	  - So most things that interact with the ground
-     
-	- Left Top (x:0; y:0):
-    
-	  - Background Layers
-     
-	  - Fonts
-     
-	  - So most UI-related resources
-    
+    <ul>
+      <li>Center Bottom:
+      <ul>
+      <li>Players</li>
+      <li>Enemies</li>
+      <li>Background Objects</li>
+      <li>Items</li>
+      <li>So most things that interact with the ground</li>
+      </ul>
+      </li>
+      <li>Left Top (x:0; y:0):
+      <ul>
+      <li>Background Layers</li>
+      <li>Fonts</li> 
+      <li>So most UI-related resources</li>
+      </ul>
+      </li>
+    </ul>
 	</details>
 
 ### Animations pane
