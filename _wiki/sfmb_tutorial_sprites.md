@@ -256,7 +256,7 @@ If you want to change how and what background layers appear in-game, please chec
 
 # Fin.
 
-That’s not all, but other things might be easier to figure out if you experiment with things you don’t know. That’s one of the best ways to learn.
-If something is still not clear, DM me, the author (**Marci599**) on Discord and I will try to help.
+That’s not all, but other things might be easier to figure out if you experiment with them. That’s one of the best ways to learn!
+If something is still not clear, DM me, the author (**Marci599**) on Discord and I will try to help!
 
 
