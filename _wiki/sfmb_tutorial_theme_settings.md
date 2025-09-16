@@ -92,5 +92,5 @@ You should ignore the `Color of {something}` fields on the main ThemeSettings wi
 
 # Fin.
 
-These are still just the basics, there are still plenty of options in `ThemeSettings`.
-If something is not clear, DM me, the author (**marci599**), and if I'm available I’ll try to help.
+These are still just the basics, there are still plenty of options in `ThemeSettings`. Don't be afraid and try experimenting with the options!
+If something is not clear, DM me, the author (**marci599**), and if I'm available I’ll try to help!
