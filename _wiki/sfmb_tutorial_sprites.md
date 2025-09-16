@@ -119,7 +119,7 @@ There are several docking panes (sub-windows) in SpriteEditor.
 - If you click on one
 
   - <img width="204" height="75" alt="image" src="https://github.com/user-attachments/assets/0c133ea2-7ca3-463e-9bac-3c8f612485c3" /> 
-  - the animation with the set offset and area will appear in the `Preview` pane.
+  - the animation will appear in the `Preview` pane.
     - ![Animation](https://github.com/user-attachments/assets/ebeff39c-dcf3-433f-ab64-726ee5244f2a)
   - and its properties will appear in the `Properties` pane.
     - `FirstFrame` -> Set which frame to start from.
@@ -131,8 +131,8 @@ There are several docking panes (sub-windows) in SpriteEditor.
     - e.g. Background Objects, Background Layers
   - And some by internal game code
     - e.g. Players, Enemies
-- Sometimes you only create an "animation" to reference it from the ThemeSettings editor. That means you don't create a real animation with frames, you just name a sprite to reference it later.
-  - e.g. Background Objects or SMB World Flags.
+- Sometimes you only create an "animation" to reference a sprite (from a spritesheet) in the ThemeSettings editor. That means you don't create a real animation with frames, you just name a sprite to reference it later.
+  - e.g. Background Objects.
 - Some spritesheets don't support animations at all. Those use predefined sprite frame indexes for specific sprites.
   - e.g. `Enemy.sprite` or `Helmet.sprite`.
   	- For example, in the `Helmet.sprite` file, the `sprite frame` with index 7 is always the front-facing spiny helmet sprite no matter what.
