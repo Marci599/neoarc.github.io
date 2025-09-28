@@ -58,14 +58,17 @@ And of course, there are exceptions when it’s not possible to create a `.sprit
     	- ![img](https://github.com/user-attachments/assets/c4ceff03-9cd6-4d79-96c4-be5b391aaa4f)
 	- Or you can associate `.sprite` files with SpriteEditor and open them directly.
 		<details>
+
 		<summary>Show how</summary>
 		
-	  	1. ![img](https://github.com/user-attachments/assets/9e5bf572-143a-4a2c-83d2-b85064b0c123)
-	  	2. ![img](https://github.com/user-attachments/assets/80a06ea0-5968-45cc-b674-11d22bee628a)
-	  	3. ![img](https://github.com/user-attachments/assets/98e02d1d-02e4-4483-9b14-931fe2b1b2b2)
-	  
-		</details>
- 
+      <ol>
+        <li><img src="https://github.com/user-attachments/assets/9e5bf572-143a-4a2c-83d2-b85064b0c123" alt="img"></li>
+        <li><img src="https://github.com/user-attachments/assets/80a06ea0-5968-45cc-b674-11d22bee628a" alt="img"></li>
+        <li><img src="https://github.com/user-attachments/assets/98e02d1d-02e4-4483-9b14-931fe2b1b2b2" alt="img"></li>
+      </ol>
+      
+
+
 	- You can also click on the program icon to open recently used sprites.
 1. It's also possible to create a `.sprite` file from a `.png` with the `new` button, but sometimes it's easier to just copy-paste an existing one.
 1. If done right, you should see the spritesheet or sprite displayed.
@@ -100,20 +103,28 @@ There are several docking panes (sub-windows) in SpriteEditor.
 - You can also set the offset here, but this is easier with the small arrow icons in the `Home` tab. With the offset you can shift the sprite from the center of the origin on the X and Y axes.
   - ![gif3](https://user-images.githubusercontent.com/40640441/122875978-3de3d180-d335-11eb-82b1-6342ad9ae62f.gif)
 
-<details>
-<summary>Show common origins</summary>
+	<details>
+	<summary>Show common origins</summary>
 
-- Center Bottom:
-  - Players
-  - Enemies
-  - Background Objects
-  - Items
-  - So most things that interact with the ground
-- Left Top (x:0; y:0):
-  - Background Layers
-  - Fonts
-  - So most UI-related resources
-</details>
+    <ul>
+      <li>Center Bottom:
+      <ul>
+      <li>Players</li>
+      <li>Enemies</li>
+      <li>Background Objects</li>
+      <li>Items</li>
+      <li>So most things that interact with the ground</li>
+      </ul>
+      </li>
+      <li>Left Top (x:0; y:0):
+      <ul>
+      <li>Background Layers</li>
+      <li>Fonts</li> 
+      <li>So most UI-related resources</li>
+      </ul>
+      </li>
+    </ul>
+	</details>
 
 ### Animations pane
 
@@ -148,7 +159,9 @@ There are several docking panes (sub-windows) in SpriteEditor.
 # Workflows
 
 - If you make changes to the `.png` files, make sure to press `Reload Image` on the `Home` tab in the SpriteEditor, so it displays the latest version of the spritesheet image.
-- If you are working with HD sprites (@2x), check the `Load HD Texture` checkbox on the `Options etc.` tab.
+- If you are working with HD sprites (@2x)
+	- Check the `Load HD Texture` checkbox on the `Options etc.` tab.
+	- If you are ripping sprites, use this tool to automate some of the steps: [Sprite rips to MM sprite resources](https://github.com/Marci599/sprite-rips-to-mm-sprite-resources/releases)
 - Regularly check for updates by pressing the `Check update` button on the `Options etc.` tab.
 - Don’t forget to save regularly!
 
